@@ -1,5 +1,8 @@
 import importlib
 import inspect
+import subprocess
+
+subprocess.run(['pip', 'install', '-r', 'requirements.txt'])
 
 NODE_CLASS_MAPPINGS = {}
 NODE_DISPLAY_NAME_MAPPINGS = {}
