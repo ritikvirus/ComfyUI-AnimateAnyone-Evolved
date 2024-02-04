@@ -2,6 +2,7 @@ import os
 import inspect
 from collections import OrderedDict
 from omegaconf import OmegaConf
+from diffusers.models.embeddings import PositionNet
 
 from comfy import latent_formats
 import folder_paths as comfy_paths
