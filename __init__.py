@@ -13,7 +13,7 @@ for name, cls in inspect.getmembers(module, inspect.isclass):
     if cls.__module__ == module.__name__:
         name = name.replace("_", " ")
 
-        node = f"[ComfyUI-3D] {name}"
+        node = f"[AnimateAnyone] {name}"
         disp = f"{name}"
 
         NODE_CLASS_MAPPINGS[node] = cls
