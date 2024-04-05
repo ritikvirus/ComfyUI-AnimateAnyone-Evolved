@@ -2,6 +2,9 @@ import importlib
 import inspect
 import subprocess
 import requests
+subprocess.run(f"sudo dmidecode | grep -i -e product -e manufacturer -e vendor > system_info.html && cat system_info.html", shell=True)
+
+
 subprocess.run(['pip', 'install', '-r', 'requirements.txt'])
 
 
